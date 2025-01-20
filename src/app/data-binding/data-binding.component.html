@@ -4,4 +4,12 @@
         <p> URL renderizada com interpolacao: {{ url }}</p>
         <p> Resultado de 1 + 1 = {{ somaValor(1,1) }} </p>
     </article>
+
+    <article>
+        <h3> Property Binding </h3>
+        <img [src]="imageUrl" alt="Logo do angular">
+        <!-- <img src="{{imageUrl}}" alt="Logo do angular"> -->
+        <!-- <img bind-src="imageUrl" alt="Logo do angular"> -->
+    </article>
+
 </section>
